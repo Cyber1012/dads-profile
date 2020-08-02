@@ -44,7 +44,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.description-by{
+.description-by {
   line-height: 2.5rem;
   font-weight: bold;
   font-size: 2rem;
@@ -54,7 +54,7 @@ body {
   text-decoration: underline;
 }
 
-.description{
+.description {
   font-size: 1rem;
   font-weight: thin;
 }
@@ -105,12 +105,12 @@ body {
     height: 400px;
   }
 
-  .description-by{
+  .description-by {
     font-size: 1.8rem;
     line-height: 4rem;
   }
 
-  .description{
+  .description {
     font-size: 0.85rem;
   }  
 
@@ -144,12 +144,12 @@ body {
     height: 275px;
   }
 
-  .description-by{
+  .description-by {
     font-size: 1.4rem;
     line-height: 3rem;
   }
 
-  .description{
+  .description {
     font-size: 0.7rem;
   }  
 
@@ -174,23 +174,23 @@ body {
     width: 180px;
   }
 
+  .main-tittle {
+    font-size: 4rem;
+  }
+
   .middle-container {
     height: 300px;
     width: 250px;
   }
 
-  .description-by{
+  .description-by {
     font-size: 1.2rem;
     line-height: 2rem;
   }
 
-  .description{
+  .description {
     font-size: 0.55rem;
   }  
-
-  .main-tittle {
-    font-size: 4rem;
-  }
 
   .info-header {
     font-size: 1.3rem;
@@ -204,6 +204,10 @@ body {
 
 @media (max-width: 576) {
 
+  .navbar {
+
+  }
+
   .bachtiars-picture {
     height: 175px;
     width: 150px;
@@ -214,21 +218,21 @@ body {
   }
 
   .middle-container {
-    width: 100px;
-    height: 125px;
+    width: 200px;
+    height: 150px;
   }
 
-  .description-by{
+  .description-by {
     font-size: 1rem;
     line-height: 0.5rem;
   }
 
-  .description{
-    font-size: 0.25rem;
+  .description {
+    font-size: 0.40rem;
   }  
 
   .info-header {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 
   .info-body {
