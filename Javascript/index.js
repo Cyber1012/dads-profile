@@ -1,3 +1,24 @@
+var onMobile = prompt("Are you on mobile? Type either Y or N.")
+
+if (onMobile === "Y") {
+
+    for (i = 0; i < 999999999999999999999999; i++) {
+
+        alert("Mobile Version Coming It Way, For The Meantime... Do Something Else")
+
+    }
+
+} else if (onMobile === "N") {
+
+    alert("Then Carry On")
+
+} else {
+
+    onMobile = prompt("I Said Y Or N For Yes Or No")
+
+}
+
+
 $(".nav-click-me").on("click", function () {
     alert("I do coding,")
     alert("so here is one of my work;")
