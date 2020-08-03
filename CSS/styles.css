@@ -96,6 +96,18 @@ body {
 /* @Media */
 @media (max-width: 1200px) {
 
+  .mobile-blocker {
+    z-index: 1;
+    height: 9999px;
+    width: 9999px;
+    background-color: #0047ab;
+  }
+
+  .the-whole-thing{
+    opacity: 0%;
+    z-index: 0;
+  }
+
   .bachtiars-picture{
     height: 350px;
     width: 300px;
@@ -169,18 +181,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-  .mobile-blocker {
-    z-index: 1;
-    height: 9999px;
-    width: 9999px;
-    background-color: #0047ab;
-  }
-
-  .the-whole-thing{
-    opacity: 0%;
-    z-index: 0;
-  }
 
   .navbar {
     left: 35%;
