@@ -88,6 +88,11 @@ body {
   text-align: right;
 }
 
+.mobile-blocker{
+  opacity: 0%;
+  z-index: -1;
+}
+
 /* @Media */
 @media (max-width: 1200px) {
 
@@ -174,6 +179,7 @@ body {
 
   .the-whole-thing{
     opacity: 0%;
+    z-index: 0;
   }
 
   .navbar {
