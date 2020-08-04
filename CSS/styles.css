@@ -88,25 +88,8 @@ body {
   text-align: right;
 }
 
-.mobile-blocker{
-  opacity: 0%;
-  z-index: -1;
-}
-
 /* @Media */
 @media (max-width: 1200px) {
-
-  .mobile-blocker {
-    z-index: 1;
-    height: 9999px;
-    width: 9999px;
-    background-color: #0047ab;
-  }
-
-  .the-whole-thing{
-    opacity: 0%;
-    z-index: 0;
-  }
 
   .bachtiars-picture{
     height: 350px;
@@ -122,21 +105,23 @@ body {
     height: 400px;
   }
 
+  .description {
+    font-size: 0.85rem;
+  } 
+
   .description-by {
     font-size: 1.8rem;
     line-height: 4rem;
-  }
-
-  .description {
-    font-size: 0.85rem;
-  }  
+  } 
 
   .info-header {
     font-size: 1.6rem;
+    text-align: center;
   }
 
   .info-body {
     font-size: 0.9rem;
+    text-align: center;
   }
 
 }
@@ -144,7 +129,7 @@ body {
 @media (max-width: 992px) {
 
   .navbar{
-    left: 40%;
+    left: 0%;
   }
 
   .bachtiars-picture {
@@ -157,18 +142,18 @@ body {
   }
   
   .middle-container {
-    width: 400px;
-    height: 275px;
-  }
-
-  .description-by {
-    font-size: 1.4rem;
-    line-height: 3rem;
+    width: 275px;
+    height: 400px;
   }
 
   .description {
     font-size: 0.7rem;
-  }  
+  } 
+  
+  .description-by {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
 
   .info-header {
     font-size: 1.45rem;
@@ -181,10 +166,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-  .navbar {
-    left: 35%;
-  }
 
   .bachtiars-picture {
     height: 200px;
@@ -200,14 +181,14 @@ body {
     width: 250px;
   }
 
+  .description {
+    font-size: 0.55rem;
+  } 
+
   .description-by {
     font-size: 1.2rem;
     line-height: 2rem;
   }
-
-  .description {
-    font-size: 0.55rem;
-  }  
 
   .info-header {
     font-size: 1.3rem;
@@ -231,17 +212,17 @@ body {
 
   .middle-container {
     width: 200px;
-    height: 150px;
+    height: 125px;
   }
+
+  .description {
+    font-size: 0.4rem;
+  }  
 
   .description-by {
     font-size: 1rem;
     line-height: 0.5rem;
   }
-
-  .description {
-    font-size: 0.40rem;
-  }  
 
   .info-header {
     font-size: 1.15rem;
