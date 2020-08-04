@@ -27,7 +27,7 @@ body {
 
 .main-tittle {
   font-family: "Permanent Marker", cursive;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 7rem;
   line-height: 1rem;
   margin-bottom: 5%;
@@ -46,7 +46,7 @@ body {
 
 .description-by {
   line-height: 2.5rem;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 2rem;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .info-header {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.75rem;
   color: #0047ab;
 }
@@ -91,7 +91,11 @@ body {
 /* @Media */
 @media (max-width: 1200px) {
 
-  .bachtiars-picture{
+  body {
+    padding: 0.5% 7.5%;
+  }
+
+  .bachtiars-picture {
     height: 350px;
     width: 300px;
   }
@@ -106,7 +110,6 @@ body {
   }
 
   .description-by {
-    font-size: 1.8rem;
     line-height: 4rem;
   }
 
@@ -115,12 +118,10 @@ body {
   }  
 
   .info-header {
-    font-size: 1.6rem;
     text-align: center;
   }
 
   .info-body {
-    font-size: 0.9rem;
     text-align: center;
   }
 
@@ -128,62 +129,22 @@ body {
 
 @media (max-width: 992px) {
 
-  .navbar{
+  .navbar {
     left: 0%;
   }
 
-  .bachtiars-picture {
-    height: 300px;
-    width: 260px;
+  .main-tittle {
+    font-size: 5.5rem;
   }
 
-  .main-tittle {
-    font-size: 6rem;
-  }
-  
-  .middle-container {
-    width: 300px;
-    height: 400px;
-  } 
-  
   .description-by {
-    line-height: 3rem;
-  }
-
-  .info-header {
-    font-size: 1.45rem;
-  }
-
-  .info-body {
-    font-size: 0.8;
-  }
-
-}
-
-/* @media (max-width: 768px) {
-
-  .bachtiars-picture {
-    height: 200px;
-    width: 180px;
-  }
-
-  .main-tittle {
-    font-size: 4rem;
-  }
-
-  .middle-container {
-    height: 300px;
-    width: 250px;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .description {
-    font-size: 0.55rem;
+    font-size: 0.85rem;
   } 
-
-  .description-by {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
 
   .info-header {
     font-size: 1.3rem;
@@ -195,7 +156,44 @@ body {
 
 }
 
-@media (max-width: 576) {
+@media (max-width: 768px) {
+
+  /* .bachtiars-picture {
+    height: 200px;
+    width: 180px;
+  }
+
+  .main-tittle {
+    font-size: 4rem;
+  } */
+
+  .middle-container {
+    padding: 25% 3%;
+    /* height: 300px;
+    width: 250px; */
+  }
+
+  /* .description-by {
+    font-size: 1rem;
+    line-height: 0.5rem;
+  }
+
+  .description {
+    font-size: 0.4rem;
+  } 
+
+  .info-header {
+    font-size: 1.15rem;
+  }
+
+  .info-body {
+    font-size: 0.6rem;
+  } */
+
+}
+
+/* @media (max-width: 576) {
+
   .bachtiars-picture {
     height: 175px;
     width: 150px;
@@ -208,23 +206,21 @@ body {
   .middle-container {
     width: 200px;
     height: 125px;
-  }
-
-  .description {
-    font-size: 0.4rem;
-  }  
-
+  } 
+  
   .description-by {
-    font-size: 1rem;
-    line-height: 0.5rem;
+    font-size: 1.9rem;
+    line-height: 3rem;
   }
 
   .info-header {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
+    text-align: center;
   }
 
   .info-body {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
-} */
+}
