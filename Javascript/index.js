@@ -23,5 +23,3 @@ $(".span-description-elaine").on("mouseover", function () {
     alert("Who is Elaine you ask?")
     alert("It's Bachtiar's Daughter")
 })
-
-//hi
