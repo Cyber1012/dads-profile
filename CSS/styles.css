@@ -156,69 +156,16 @@ body {
 
 @media (max-width: 768px) {
 
-  /* .bachtiars-picture {
-    height: 200px;
-    width: 180px;
-  }
-
-  .main-tittle {
-    font-size: 4rem;
-  } */
-
   .middle-container {
-    padding: 18% 3%;
-    /* height: 300px;
-    width: 250px; */
-  }
-
-  /* .description-by {
-    font-size: 1rem;
-    line-height: 0.5rem;
+    padding: 15% 3%;
   }
 
   .description {
-    font-size: 0.4rem;
-  } 
-
-  .info-header {
-    font-size: 1.15rem;
+    line-height: 1.75rem;
   }
-
-  .info-body {
-    font-size: 0.6rem;
-  } */
 
 }
 
-/* @media (max-width: 576) {
-
-  .bachtiars-picture {
-    height: 175px;
-    width: 150px;
-  }
-
-  .main-tittle {
-    font-size: 3rem;
-  }
-
-  .middle-container {
-    width: 200px;
-    height: 125px;
-  } 
-  
-  .description-by {
-    font-size: 1.9rem;
-    line-height: 3rem;
-  }
-
-  .info-header {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-
-  .info-body {
-    font-size: 0.9rem;
-    text-align: center;
-  }
+@media (max-width: 576) {
 
 }
