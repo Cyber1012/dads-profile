@@ -45,9 +45,9 @@ body {
 }
 
 .description-by {
-  line-height: 2.5rem;
+  line-height: 3rem;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .span-description{
@@ -57,6 +57,14 @@ body {
 .description {
   font-size: 1rem;
   font-weight: thin;
+}
+
+.carousel-next-button {
+  line-height: 5rem;
+}
+
+.carousel-prev-button {
+  line-height: 5rem;
 }
 
 /* Bottom Container */
@@ -92,12 +100,7 @@ body {
 @media (max-width: 1200px) {
 
   body {
-    padding: 0.5% 7.5%;
-  }
-
-  .bachtiars-picture {
-    height: 350px;
-    width: 300px;
+    padding: 1% 10%;
   }
 
   .main-tittle {
@@ -110,11 +113,11 @@ body {
   }
 
   .description-by {
-    line-height: 4rem;
+    line-height: 5rem;
   }
 
   .description {
-    font-size: 0.85rem;
+    line-height: 1.5rem;
   }  
 
   .info-header {
@@ -133,25 +136,20 @@ body {
     left: 0%;
   }
 
+  .navbar-brand{
+    font-size: 2rem;
+  }
+
   .main-tittle {
     font-size: 5.5rem;
   }
 
+  .middle-container {
+    padding: 10% 5%;
+  }
+
   .description-by {
-    font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .description {
-    font-size: 0.85rem;
-  } 
-
-  .info-header {
-    font-size: 1.3rem;
-  }
-
-  .info-body {
-    font-size: 0.7rem;
   }
 
 }
@@ -168,7 +166,7 @@ body {
   } */
 
   .middle-container {
-    padding: 25% 3%;
+    padding: 18% 3%;
     /* height: 300px;
     width: 250px; */
   }
