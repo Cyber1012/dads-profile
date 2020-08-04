@@ -1,22 +1,22 @@
-var onMobile = prompt("Are you on mobile? Type either Y or N.")
+// var onMobile = prompt("Are you on mobile? Type either Y or N.")
 
-if (onMobile === "Y") {
+// if (onMobile === "Y") {
 
-    for (i = 0; i < 999999999999999999999999; i++) {
+//     for (i = 0; i < 999999999999999999999999; i++) {
 
-        alert("Mobile Version Coming It Way, For The Meantime... Do Something Else")
+//         alert("Mobile Version Coming It Way, For The Meantime... Do Something Else")
 
-    }
+//     }
 
-} else if (onMobile === "N") {
+// } else if (onMobile === "N") {
 
-    alert("Then Carry On")
+//     alert("Then Carry On")
 
-} else {
+// } else {
 
-    onMobile = prompt("I Said Y Or N For Yes Or No")
+//     onMobile = prompt("I Said Y Or N For Yes Or No")
 
-}
+// }
 
 
 $(".nav-click-me").on("click", function () {
