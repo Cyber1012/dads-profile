@@ -4,10 +4,14 @@ body {
 }
 
 /* Nav Bar */
-.navbar{
+.navbar {
   font-family: "Montserrat", sans-serif;
   position: fixed;
   left: 36.70%;
+}
+
+.navbar-brand {
+  font-weight: bold;
 }
 
 /* Top Container */
@@ -85,7 +89,7 @@ body {
 .info-body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .info-center {
@@ -105,11 +109,6 @@ body {
 
   .main-tittle {
     font-size: 6.5rem;
-  }
-
-  .middle-container {
-    width: 400px;
-    height: 400px;
   }
 
   .description-by {
@@ -157,15 +156,11 @@ body {
 @media (max-width: 768px) {
 
   .middle-container {
-    padding: 15% 3%;
+    padding: 15% 5%;
   }
 
   .description {
     line-height: 1.75rem;
   }
-
-}
-
-@media (max-width: 576) {
 
 }
