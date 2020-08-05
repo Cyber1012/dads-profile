@@ -1,9 +1,7 @@
 $(".nav-click-me").on("click", function () {
 
-    alert("I do coding,")
-    alert("so here is one of the things I've coded;")
-    alert("I call it my task app.")
-    alert("So you can keep track of all your tasks!")
+    alert("I do coding, so here is one of the things I've coded;")
+    alert("I call it my task app, so you can keep track of all your tasks!")
 
 })
 
