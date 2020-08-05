@@ -136,8 +136,12 @@ body {
     left: 0%;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     font-size: 2rem;
+  }
+
+  .nav-item {
+    font-size: 1.5rem;
   }
 
   .main-tittle {
@@ -169,7 +173,7 @@ body {
   }
 
   .description {
-    line-height: 3rem;
+    line-height: 4rem;
   }
 
   .info-body {
