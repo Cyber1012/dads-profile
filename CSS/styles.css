@@ -40,8 +40,6 @@ body {
 /* Middle Container */
 .middle-container {
   background-color: #a6e3e9;
-  height: 450px;
-  width: 450px;
   text-align: center;
   border-radius: 25%;
   padding: 7% 1%;
@@ -49,9 +47,9 @@ body {
 }
 
 .description-by {
-  line-height: 3rem;
+  line-height: 3.5rem;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .span-description{
@@ -59,7 +57,7 @@ body {
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: thin;
 }
 
@@ -77,19 +75,18 @@ body {
   padding: 2% 10%;
   border-radius: 10%;
   margin: 5% 2% 4.975% 2%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .info-header {
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #0047ab;
 }
 
 .info-body {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .info-center {
@@ -112,11 +109,11 @@ body {
   }
 
   .description-by {
-    line-height: 5rem;
+    line-height: 10rem;
   }
 
   .description {
-    line-height: 1.5rem;
+    line-height: 2rem;
   }  
 
   .info-header {
@@ -152,7 +149,15 @@ body {
   }
 
   .description-by {
-    line-height: 2rem;
+    line-height: 5rem;
+  }
+
+  .info-header {
+    font-size: 2.5rem;
+  }
+
+  .info-body {
+    font-weight: 900;
   }
 
 }
@@ -164,7 +169,11 @@ body {
   }
 
   .description {
-    line-height: 1.75rem;
+    line-height: 3rem;
+  }
+
+  .info-body {
+    line-height: 5rem;
   }
 
 }
