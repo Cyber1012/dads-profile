@@ -168,6 +168,11 @@ body {
 
 @media (max-width: 768px) {
 
+  .navbar {
+    width: 40%;
+    height: 15%;
+  }
+  
   .middle-container {
     padding: 15% 5%;
   }
