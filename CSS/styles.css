@@ -100,10 +100,6 @@ body {
 /* @Media */
 @media (max-width: 1200px) {
 
-  body {
-    padding: 1% 10%;
-  }
-
   .main-tittle {
     font-size: 6.5rem;
   }
@@ -130,6 +126,7 @@ body {
 
   body {
     font-weight: 900;
+    padding: 1% 10%;
   }
 
   .navbar {
@@ -139,10 +136,12 @@ body {
 
   .navbar-brand {
     font-size: 2rem;
+    line-height: 4rem;
   }
 
   .nav-item {
     font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 
   .main-tittle {
