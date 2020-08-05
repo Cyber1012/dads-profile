@@ -134,6 +134,7 @@ body {
 
   .navbar {
     left: 0%;
+    width: 100%;
   }
 
   .navbar-brand {
@@ -167,10 +168,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-  .navbar {
-    width: 50%;
-  }
 
   .middle-container {
     padding: 15% 5%;
