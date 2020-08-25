@@ -8,7 +8,7 @@ $(".nav-click-me").on("click", function () {
 $(".credit").on("click", function () {
 
     alert("This website was specialy made...")
-    alert("...by Bachtiar's own 12 year old son. So check his website out!")
+    alert("...by Bachtiar's own son. So check his website out!")
 
 })
 
